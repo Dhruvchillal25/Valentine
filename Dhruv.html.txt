@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day!</title>
+    <style>
+        body {
+            background-color: #fff0f3;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #5c001e;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        h1 { color: #ff4d6d; }
+        .nickname-box {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .badge {
+            background: #ffb3c1;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+        .video-call-section {
+            background: #ffe5ec;
+            padding: 15px;
+            border-radius: 15px;
+            margin: 20px 0;
+        }
+        .warning {
+            font-style: italic;
+            color: #c9184a;
+            font-size: 0.85em;
+        }
+        .heart {
+            color: #ff4d6d;
+            font-size: 50px;
+        }
+        button {
+            background: #ff4d6d;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="heart">❤️</div>
+    <h1>Happy Valentine's Day, Paglet!</h1>
+    
+    <p>To the girl who is way too sweet, way too cute, and way too stubborn...</p>
+
+    <div class="nickname-box">
+        <span class="badge">Nashedi 🥴</span>
+        <span class="badge">Paglet 🤡</span>
+        <span class="badge">Babu 🥰</span>
+    </div>
+
+    <div class="video-call-section">
+        <h3>🌙 The Midnight Magic</h3>
+        <p>Your late-night video calls are the reason my mornings are special. Thank you for making every day perfect just by being you.</p>
+    </div>
+
+    <div style="text-align: left; padding: 10px;">
+        <h4>Why you are impossible (but I love you):</h4>
+        <ul>
+            <li>You think about me 24/7 but forget to take care of yourself. 🤦‍♂️</li>
+            <li>I tell you to do something for your own good, and you do the exact opposite. 🙄</li>
+            <li>"Baat nahi sunti kisi ki... aur meri toh bilkul bhi nahi!"</li>
+        </ul>
+    </div>
+
+    <p class="warning">P.S. Please start listening to me sometimes? No? Okay, fine.</p>
+    
+    <button onclick="alert('I Love You So Much!')">Click for a Surprise</button>
+</div>
+
+</body>
+</html>
